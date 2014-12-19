@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="">
+
+            <title>Editor</title>
+
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+            <style>
+                .panel {
+                    width: 800px;
+                }
+                #textarea {
+                    -moz-appearance: textfield-multiline;
+                    -webkit-appearance: textarea;
+                    border: 1px solid gray;
+                    height: 400px;
+                    overflow: auto;
+                    padding: 2px;
+                    resize: both;
+                    width: auto;
+                }
+            </style>
+        </head>
+
+        <body class="index">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Editor</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="btn-toolbar" role="toolbar">
+                        <div class="btn-group" role="group" aria-label="preview-group">
+                            <button type="button" class="btn btn-success">Plan</button>
+                            <button type="button" class="btn btn-success">HTML</button>
+                            <button type="button" class="btn btn-success">View</button>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="align-group">
+                            <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></button>
+                            <button type="button" class="btn btn-default" aria-label="Center Align"><span class="glyphicon glyphicon-align-center" aria-hidden="true"></span></button>
+                            <button type="button" class="btn btn-default" aria-label="Right Align"><span class="glyphicon glyphicon-align-right" aria-hidden="true"></span></button>
+                            <button type="button" class="btn btn-default" aria-label="Justify"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="textmark-group">
+                            <button type="button" class="btn btn-default" aria-label="Bold"><span class="glyphicon glyphicon-bold" aria-hidden="true"></span></button>
+                            <button type="button" class="btn btn-default" aria-label="Italic"><span class="glyphicon glyphicon-italic" aria-hidden="true"></span></button>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="style-group">
+                            <button type="button" class="btn btn-default">basic style</button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">basic style</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Other style</a></li>
+                                <li><a href="#">Another style</a></li>
+                                <li><a href="#">One more</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="features">
+                            <button type="button" class="btn btn-success" aria-label="Table input"><span class="glyphicon glyphicon-th" aria-hidden="true"></span></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="textarea" class="well" contenteditable>
+                        Permission is hereby granted, free of charge, to any person obtaining a copy
+                        of this software and associated documentation files (the "Software"), to deal
+                        in the Software without restriction, including without limitation the rights
+                        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                        copies of the Software, and to permit persons to whom the Software is furnished
+                        to do so, subject to the following conditions:
+
+                        The above copyright notice and this permission notice shall be included in all
+                        copies or substantial portions of the Software.
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>

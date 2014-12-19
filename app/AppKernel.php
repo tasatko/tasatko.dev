@@ -11,7 +11,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
-            new Acme\HelloBundle\AcmeHelloBundle()
+            new Tasatko\EditorBundle\TasatkoEditorBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
