@@ -6,3 +6,4 @@ composer.phar
 .idea
 app/cache
 app/logs
+web/wysihtml
