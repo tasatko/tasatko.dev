@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f9f6531-fe96-4f3f-8f7e-0bddcec2517a" name="Default" comment="commit under IDE">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/wysihtml/dist/wysihtml-toolbar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/wysihtml/dist/wysihtml-toolbar.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/wysihtml/dist/wysihtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/wysihtml/dist/wysihtml.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/wysihtml/dist/wysihtml.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/remove_invisible_spaces.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml" afterPath="$PROJECT_DIR$/web/wysihtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/CHANGELOG.textile" afterPath="$PROJECT_DIR$/web/wysihtml/CHANGELOG.textile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/Gruntfile.js" afterPath="$PROJECT_DIR$/web/wysihtml/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/LICENSE" afterPath="$PROJECT_DIR$/web/wysihtml/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/README.markdown" afterPath="$PROJECT_DIR$/web/wysihtml/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/examples/advanced.html" afterPath="$PROJECT_DIR$/web/wysihtml/examples/advanced.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/parser_rules/advanced.js" afterPath="$PROJECT_DIR$/web/wysihtml/parser_rules/advanced.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/parser_rules/advanced_and_extended.js" afterPath="$PROJECT_DIR$/web/wysihtml/parser_rules/advanced_and_extended.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/examples/advanced_div.html" afterPath="$PROJECT_DIR$/web/wysihtml/examples/advanced_div.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/parser_rules/advanced_unwrap.js" afterPath="$PROJECT_DIR$/web/wysihtml/parser_rules/advanced_unwrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/alignCenterStyle.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/alignCenterStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/alignLeftStyle.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/alignLeftStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/alignRightStyle.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/alignRightStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/bower.json" afterPath="$PROJECT_DIR$/web/wysihtml/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/browser.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/views/composer.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/views/composer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/views/composer.observe.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/views/composer.observe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/createLink.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/createLink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/delegate.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/dom/delegate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/toolbar/dialog.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/toolbar/dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/dom_node.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/dom/dom_node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/test/editor_commands_test.js" afterPath="$PROJECT_DIR$/web/wysihtml/test/editor_commands_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/formatBlock.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/formatBlock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/formatCode.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/formatCode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/get_parent_element.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/dom/get_parent_element.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/test/dom/get_parent_element_test.js" afterPath="$PROJECT_DIR$/web/wysihtml/test/dom/get_parent_element_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/index.html.twig" afterPath="$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/test/index.html" afterPath="$PROJECT_DIR$/web/wysihtml/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/insertBlockQuote.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/insertBlockQuote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/insertImage.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/insertImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/insertList.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/insertList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/insert_css.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/dom/insert_css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyCenter.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyCenter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyFull.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyFull.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyLeft.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyLeft.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyRight.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/justifyRight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/outdentList.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/outdentList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/package.json" afterPath="$PROJECT_DIR$/web/wysihtml/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/parse.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/dom/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/polyfills.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/polyfills.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/commands/removeLink.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/commands/removeLink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/test/dom/sandbox_test.js" afterPath="$PROJECT_DIR$/web/wysihtml/test/dom/sandbox_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/selection/selection.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/selection/selection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/table.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/dom/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/quirks/table_cells_selection.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/quirks/table_cells_selection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/toolbar/toolbar.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/toolbar/toolbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml/src/dom/unwrap.js" afterPath="$PROJECT_DIR$/web/wysihtml/src/dom/unwrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasatko.dev.iws" />
@@ -545,14 +492,20 @@
       <option name="project" value="LOCAL" />
       <updated>1419077370353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit under IDE">
+      <created>1419077423428</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1419077423428</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32910246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32910246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910246" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34360835" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -713,6 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2502">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
