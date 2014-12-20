@@ -3,6 +3,7 @@ index:
     defaults:
         _controller: TasatkoAdminBundle:Index:index
         _template: Resources:views:Index:index;
+
 editor:
     path:      /editor
     defaults:

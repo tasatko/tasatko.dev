@@ -12,6 +12,8 @@ class AppKernel extends Kernel
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Tasatko\EditorBundle\TasatkoEditorBundle(),
+            new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+            new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
             new Tasatko\AdminBundle\TasatkoAdminBundle()
         );
 

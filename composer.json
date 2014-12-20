@@ -2,7 +2,10 @@
     "require": {
         "symfony/symfony": "@stable",
         "symfony/monolog-bundle": "@stable",
-        "vlucas/phpdotenv": "@stable"
+        "vlucas/phpdotenv": "@stable",
+        "symfony/assetic-bundle": "2.5.*",
+        "mopa/bootstrap-bundle": "dev-master",
+        "twbs/bootstrap": "dev-master"
     },
     "extra": {
         "symfony-app-dir": "app",

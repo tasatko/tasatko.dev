@@ -1,148 +1,147 @@
-<!DOCTYPE html>
+{% extends 'MopaBootstrapBundle::base.html.twig' %}
 
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta charset="utf-8">
+{% block title %}Yourapp{% endblock %}
 
-<title>wysihtml5 - Advanced Demo</title>
-<link rel="stylesheet" href="{{ asset('wysihtml/examples/css/stylesheet.css') }}" type="text/css" media="screen" title="no title" charset="utf-8">
+{% block stylesheets %}
+    <link href="{{ asset_url }}" rel="stylesheet" type="text/css"/>
+    <style>
+        body {
+            font-family: Verdana;
+            font-size: 11px;
+        }
 
+        h2 {
+            margin-bottom: 0;
+        }
 
-<style>
-    body {
-        font-family: Verdana;
-        font-size: 11px;
-    }
+        small {
+            display: block;
+            margin-top: 40px;
+            font-size: 9px;
+        }
 
-    h2 {
-        margin-bottom: 0;
-    }
+        small,
+        small a {
+            color: #666;
+        }
 
-    small {
-        display: block;
-        margin-top: 40px;
-        font-size: 9px;
-    }
+        a {
+            color: #000;
+            text-decoration: underline;
+            cursor: pointer;
+        }
 
-    small,
-    small a {
-        color: #666;
-    }
+        #toolbar [data-wysihtml5-action] {
+            float: right;
+        }
 
-    a {
-        color: #000;
-        text-decoration: underline;
-        cursor: pointer;
-    }
+        #toolbar,
+        textarea {
+            width: 920px;
+            padding: 5px;
+            -webkit-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
 
-    #toolbar [data-wysihtml5-action] {
-        float: right;
-    }
+        textarea {
+            height: 280px;
+            border: 2px solid green;
+            font-family: Verdana;
+            font-size: 11px;
+        }
 
-    #toolbar,
-    textarea {
-        width: 920px;
-        padding: 5px;
-        -webkit-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
+        textarea:focus {
+            color: black;
+            border: 2px solid black;
+        }
 
-    textarea {
-        height: 280px;
-        border: 2px solid green;
-        font-family: Verdana;
-        font-size: 11px;
-    }
+        .wysihtml5-command-active {
+            font-weight: bold;
+        }
 
-    textarea:focus {
-        color: black;
-        border: 2px solid black;
-    }
+        [data-wysihtml5-dialog] {
+            margin: 5px 0 0;
+            padding: 5px;
+            border: 1px solid #666;
+        }
 
-    .wysihtml5-command-active {
-        font-weight: bold;
-    }
+        a[data-wysihtml5-command-value="red"] {
+            color: red;
+        }
 
-    [data-wysihtml5-dialog] {
-        margin: 5px 0 0;
-        padding: 5px;
-        border: 1px solid #666;
-    }
+        a[data-wysihtml5-command-value="green"] {
+            color: green;
+        }
 
-    a[data-wysihtml5-command-value="red"] {
-        color: red;
-    }
+        a[data-wysihtml5-command-value="blue"] {
+            color: blue;
+        }
 
-    a[data-wysihtml5-command-value="green"] {
-        color: green;
-    }
+        code {
+            background: #ddd;
+            padding: 10px;
+            white-space: pre;
+            display: block;
+            margin: 1em 0;
+        }
 
-    a[data-wysihtml5-command-value="blue"] {
-        color: blue;
-    }
+        .toolbar {
+            display: block;
+            border-radius: 3px;
+            border: 1px solid #fff;
+            margin-bottom: 10px;
+        }
+        .toolbar a {
+            display: inline-block;
+            height: 1.7em;
+            border-radius: 3px;
+            font-size: 11px;
+            line-height: 1.7em;
+            text-decoration: none;
+            background: #e1e1e1;
+            border: 1px solid #ddd;
+            padding: 0 0.5em;
+            margin: 1px 0;
+        }
+        .toolbar a.active  {
+            background: #222;
+            color: white;
+        }
+        .toolbar .block {
+            padding: 2px 3px;
+            display: inline-block;
+            background: #eee;
+            border-radius: 3px;
+            margin: 2px 2px 2px 0;
+        }
 
-    code {
-        background: #ddd;
-        padding: 10px;
-        white-space: pre;
-        display: block;
-        margin: 1em 0;
-    }
+        .wysihtml5-editor table td, .wysihtml5-editor table th {
+            outline: 1px dotted #ddd;
+        }
+        .wysihtml5-editor table .wysiwyg-tmp-selected-cell {
+            outline: 1px solid green;
+        }
 
-    .toolbar {
-        display: block;
-        border-radius: 3px;
-        border: 1px solid #fff;
-        margin-bottom: 10px;
-    }
-    .toolbar a {
-        display: inline-block;
-        height: 1.7em;
-        border-radius: 3px;
-        font-size: 11px;
-        line-height: 1.7em;
-        text-decoration: none;
-        background: #e1e1e1;
-        border: 1px solid #ddd;
-        padding: 0 0.5em;
-        margin: 1px 0;
-    }
-    .toolbar a.active  {
-        background: #222;
-        color: white;
-    }
-    .toolbar .block {
-        padding: 2px 3px;
-        display: inline-block;
-        background: #eee;
-        border-radius: 3px;
-        margin: 2px 2px 2px 0;
-    }
+        .toolbar .color-btn, .toolbar .bg-color-btn {
+            height: 1.7em;
+            width: 1.7em;
+            text-align: center;
+            border: 2px solid #ddd;
+            padding:0;
+            margin:0;
+            color: white;
+        }
 
-    .wysihtml5-editor table td, .wysihtml5-editor table th {
-        outline: 1px dotted #ddd;
-    }
-    .wysihtml5-editor table .wysiwyg-tmp-selected-cell {
-        outline: 1px solid green;
-    }
+        .toolbar .color-btn.active, .toolbar .bg-color-btn.active  {
+            border: 2px solid #333;
+        }
 
-    .toolbar .color-btn, .toolbar .bg-color-btn {
-        height: 1.7em;
-        width: 1.7em;
-        text-align: center;
-        border: 2px solid #ddd;
-        padding:0;
-        margin:0;
-        color: white;
-    }
+    </style>
+{% endblock %}
 
-    .toolbar .color-btn.active, .toolbar .bg-color-btn.active  {
-        border: 2px solid #333;
-    }
-
-</style>
-
+{% block body %}
 <h1>wysihtml5 - Advanced Editor Example</h1>
 
 <div class="ewrapper">
@@ -513,3 +512,4 @@
     });
 
 </script>
+{% endblock %}

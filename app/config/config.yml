@@ -6,7 +6,6 @@ framework:
         strict_requirements: %kernel.debug%
     templating:
         engines: ['twig']
-
     profiler:
         enabled: %kernel.debug%
 
@@ -20,3 +19,16 @@ monolog:
             type:  stream
             path:  "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
+
+assetic:
+    use_controller: false
+    debug:                '%kernel.debug%'
+    use_controller:
+        enabled:              '%kernel.debug%'
+        profiler:             false
+    read_from:            '%kernel.root_dir%/../web'
+    write_to:             '%kernel.root_dir%/../web'
+    assets:
+        webcss:
+            inputs:
+                -  "%kernel.root_dir%/../web/wysihtml/examples/css/stylesheet.css"

@@ -1,0 +1,30 @@
+{
+  "name":        "Tasatko/EditorBundle",
+  "type":        "symfony-bundle",
+  "description": "bootstrapped WYSIWYG editor based on wysihtml",
+  "keywords":    ["WYSIWYG", "editor", "symfony", "bundle", "bootstrap"],
+  "homepage":    "https://github.com/tasatko/tasatko.dev/tree/master/src/Tasatko/EditorBundle",
+  "license":     "MIT",
+
+  "authors": [
+    {
+      "name": "Tasatko",
+      "homepage": "https://github.com/tasatko"
+    }
+  ],
+
+  "require": {
+    "php":                      ">=5.3.2",
+    "symfony/framework-bundle": ">=2.3.0"
+  },
+
+  "minimum-stability": "dev",
+
+  "autoload": {
+    "psr-0": {
+      "Tasatko\\EditorBundle": "/src"
+    }
+  },
+
+  "target-dir": "Tasatko/EditorBundle"
+}
