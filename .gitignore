@@ -1,6 +1,8 @@
 .env
+.htaccess
 vendor
 composer.lock
 composer.phar
+.idea
 app/cache
 app/logs

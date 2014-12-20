@@ -4,8 +4,12 @@
         "symfony/monolog-bundle": "@stable",
         "vlucas/phpdotenv": "@stable"
     },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "symfony-assets-install": "symlink"
+    },
     "autoload": {
-        "psr-0": { "Acme": "src/" },
         "psr-0": { "Tasatko": "src/" }
     }
 }

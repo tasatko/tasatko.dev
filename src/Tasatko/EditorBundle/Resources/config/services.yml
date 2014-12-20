@@ -1,0 +1,4 @@
+services:
+    tasatko.editor.controller:
+        class:     \Tasatko\EditorBundle\TasatkoEditorBundle
+        arguments: ["@templating"]

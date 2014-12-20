@@ -1,9 +1,8 @@
 <?php
 
-namespace Tasatko\EditorBundle\Controller;
+namespace Tasatko\AdminBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Response;
 
 class IndexController extends Controller
 {
@@ -11,7 +10,7 @@ class IndexController extends Controller
     public function indexAction()
     {
         return $this->render(
-            'TasatkoEditorBundle:Index:index.html.twig'
+            'TasatkoAdminBundle:Index:index.html.twig'
         );
     }
 }

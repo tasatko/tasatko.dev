@@ -1,3 +1,10 @@
 index:
     path:      /
-    defaults:  { _controller: TasatkoEditorBundle:Index:index }
+    defaults:
+        _controller: TasatkoAdminBundle:Index:index
+        _template: Resources:views:Index:index;
+editor:
+    path:      /editor
+    defaults:
+        _controller: TasatkoEditorBundle:Index:index
+        _template: Resources:views:Index:index;
