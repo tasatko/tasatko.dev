@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f9f6531-fe96-4f3f-8f7e-0bddcec2517a" name="Default" comment="commit under IDE">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/wysihtml" afterPath="$PROJECT_DIR$/web/wysihtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/code39.png" afterPath="$PROJECT_DIR$/web/icons/png/code39.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/comment20.png" afterPath="$PROJECT_DIR$/web/icons/png/comment20.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/conversation5.png" afterPath="$PROJECT_DIR$/web/icons/png/conversation5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/earth23.png" afterPath="$PROJECT_DIR$/web/icons/png/earth23.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/html.png" afterPath="$PROJECT_DIR$/web/icons/png/html.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/html20.png" afterPath="$PROJECT_DIR$/web/icons/png/html20.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/html22.png" afterPath="$PROJECT_DIR$/web/icons/png/html22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/html24.png" afterPath="$PROJECT_DIR$/web/icons/png/html24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/italic7.png" afterPath="$PROJECT_DIR$/web/icons/png/italic7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/line21.png" afterPath="$PROJECT_DIR$/web/icons/png/line21.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/link64.png" afterPath="$PROJECT_DIR$/web/icons/png/link64.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/number37.png" afterPath="$PROJECT_DIR$/web/icons/png/number37.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/number40.png" afterPath="$PROJECT_DIR$/web/icons/png/number40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/number41.png" afterPath="$PROJECT_DIR$/web/icons/png/number41.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/numbered6.png" afterPath="$PROJECT_DIR$/web/icons/png/numbered6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/office2.png" afterPath="$PROJECT_DIR$/web/icons/png/office2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/quote5.png" afterPath="$PROJECT_DIR$/web/icons/png/quote5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/redo12.png" afterPath="$PROJECT_DIR$/web/icons/png/redo12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/redo5.png" afterPath="$PROJECT_DIR$/web/icons/png/redo5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/redo6.png" afterPath="$PROJECT_DIR$/web/icons/png/redo6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/right40.png" afterPath="$PROJECT_DIR$/web/icons/png/right40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/social113.png" afterPath="$PROJECT_DIR$/web/icons/png/social113.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/text122.png" afterPath="$PROJECT_DIR$/web/icons/png/text122.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/text126.png" afterPath="$PROJECT_DIR$/web/icons/png/text126.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/text71.png" afterPath="$PROJECT_DIR$/web/icons/png/text71.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/text72.png" afterPath="$PROJECT_DIR$/web/icons/png/text72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/underline5.png" afterPath="$PROJECT_DIR$/web/icons/png/underline5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/undo14.png" afterPath="$PROJECT_DIR$/web/icons/png/undo14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/undo15.png" afterPath="$PROJECT_DIR$/web/icons/png/undo15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/undo3.png" afterPath="$PROJECT_DIR$/web/icons/png/undo3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/undo7.png" afterPath="$PROJECT_DIR$/web/icons/png/undo7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/icons/png/user148.png" afterPath="$PROJECT_DIR$/web/icons/png/user148.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/index.html.twig" afterPath="$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/toolbar.html.twig" afterPath="$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/toolbar.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,11 +74,10 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08604206" vertical-offset="3600" max-vertical-offset="5130">
-              <caret line="205" column="40" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.32695985" vertical-offset="1242" max-vertical-offset="4932">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
-                <element signature="e#5480#5518#0#Twig" expanded="true" />
-                <element signature="e#5690#5736#0#Twig" expanded="true" />
+                <element signature="e#12#47#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +86,7 @@
       <file leaf-file-name="content_content.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/content_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="1422">
+            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1422">
               <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
               <folding />
             </state>
@@ -65,10 +96,12 @@
       <file leaf-file-name="toolbar.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/toolbar.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1980">
-              <caret line="15" column="128" selection-start-line="15" selection-start-column="128" selection-end-line="15" selection-end-column="128" />
+            <state vertical-scroll-proportion="-14.925926" vertical-offset="281" max-vertical-offset="1746">
+              <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#12;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +120,7 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/mopa/bootstrap-bundle/Mopa/Bundle/BootstrapBundle/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-50.666668" vertical-offset="0" max-vertical-offset="2430">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="2430">
               <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding />
             </state>
@@ -443,7 +476,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10885417" sideWeight="0.49954668" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.125" sideWeight="0.49954668" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34360835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299356" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -486,6 +519,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/content_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1422">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/toolbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1980">
+          <caret line="15" column="128" selection-start-line="15" selection-start-column="128" selection-end-line="15" selection-end-column="128" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="252">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mopa/bootstrap-bundle/Mopa/Bundle/BootstrapBundle/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="2430">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing_prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
@@ -499,8 +568,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5130">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5480#5518#0#Twig" expanded="true" />
-            <element signature="e#5690#5736#0#Twig" expanded="true" />
+            <element signature="e#12#47#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,13 +590,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5625" vertical-offset="0" max-vertical-offset="126">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/.htaccess">
@@ -808,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mopa/bootstrap-bundle/Mopa/Bundle/BootstrapBundle/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-50.666668" vertical-offset="0" max-vertical-offset="2430">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="2430">
           <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding />
         </state>
@@ -816,7 +884,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/content_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="1422">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1422">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
         </state>
@@ -824,21 +892,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/toolbar.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1980">
-          <caret line="15" column="128" selection-start-line="15" selection-start-column="128" selection-end-line="15" selection-end-column="128" />
+        <state vertical-scroll-proportion="-14.925926" vertical-offset="281" max-vertical-offset="1746">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasatko/EditorBundle/Resources/views/Index/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08604206" vertical-offset="3600" max-vertical-offset="5130">
-          <caret line="205" column="40" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.32695985" vertical-offset="1242" max-vertical-offset="4932">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
-            <element signature="e#5480#5518#0#Twig" expanded="true" />
-            <element signature="e#5690#5736#0#Twig" expanded="true" />
+            <element signature="e#12#47#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>

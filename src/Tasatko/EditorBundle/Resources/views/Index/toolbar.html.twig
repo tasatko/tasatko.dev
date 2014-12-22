@@ -1,19 +1,56 @@
 <div class="toolbar" style="display: none;">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="p"><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p"><img src="{{ asset('icons/png/line21.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Analog List"><a data-wysihtml5-command="insertUnorderedList"><img src="{{ asset('icons/png/office2.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Digital List"><a data-wysihtml5-command="insertOrderedList"><img src="{{ asset('icons/png/numbered6.png') }}"></a></button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="Left Align"><a data-wysihtml5-command="bold" title="CTRL+B"><img src="{{ asset('icons/png/text122.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Center Align"><a data-wysihtml5-command="italic" title="CTRL+I"><img src="{{ asset('icons/png/italic7.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Right Align"><a data-wysihtml5-command="underline" title="CTRL+U"><img src="{{ asset('icons/png/underline5.png') }}"></a></button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="h1"><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1"><img src="{{ asset('icons/png/number41.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="h2"><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2"><img src="{{ asset('icons/png/number40.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="h3"><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3"><img src="{{ asset('icons/png/number37.png') }}"></a></button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="Left Align"><a data-wysihtml5-command="alignLeftStyle"><img src="{{ asset('icons/png/text71.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Right Align"><a data-wysihtml5-command="alignRightStyle"><img src="{{ asset('icons/png/right40.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Center Align"><a data-wysihtml5-command="alignCenterStyle"><img src="{{ asset('icons/png/text72.png') }}"></a></button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="html"><a data-wysihtml5-action="showSource"><img src="{{ asset('icons/png/html20.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Quote"><a data-wysihtml5-command="insertBlockQuote"><img src="{{ asset('icons/png/conversation5.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Code"><a data-wysihtml5-command="formatCode" data-wysihtml5-command-value="language-html"><img src="{{ asset('icons/png/code39.png') }}"></a></button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="Set Link"><a data-wysihtml5-command="createLink"><img src="{{ asset('icons/png/earth23.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Unset Link"><a data-wysihtml5-command="removeLink"><img src="{{ asset('icons/png/link64.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Insert Image"><a data-wysihtml5-command="insertImage"><img src="{{ asset('icons/png/user148.png') }}"></a></button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="Undo"><a data-wysihtml5-command="undo"><img src="{{ asset('icons/png/undo14.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Redo"><a data-wysihtml5-command="redo"><img src="{{ asset('icons/png/redo12.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="Reset"><a data-wysihtml5-command="reset"><img src="{{ asset('icons/png/reset1.png') }}"></a></button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" aria-label="Font Color"><a data-wysihtml5-command="foreColorStyle"><img src="{{ asset('icons/png/color6.png') }}"></a></button>
+        <button type="button" class="btn btn-default" aria-label="BG Color"><a data-wysihtml5-command="bgColorStyle"><img src="{{ asset('icons/png/colors3.png') }}"></a></button>
+    </div>
     <div class="block">
-        <a data-wysihtml5-command="bold" title="CTRL+B"><img src="{{ asset('icons/png/text122.png') }}"></a>
-        <a data-wysihtml5-command="italic" title="CTRL+I"><img src="{{ asset('icons/png/italic7.png') }}"></a>
-        <a data-wysihtml5-command="underline" title="CTRL+U"><img src="{{ asset('icons/png/underline5.png') }}"></a>
-
-        <a data-wysihtml5-command="createLink"><img src="{{ asset('icons/png/earth23.png') }}"></a>
-        <a data-wysihtml5-command="removeLink"><img src="{{ asset('icons/png/link64.png') }}"></a>
-        <a data-wysihtml5-command="insertImage"><img src="{{ asset('icons/png/user148.png') }}"></a>
-        <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1"><img src="{{ asset('icons/png/number41.png') }}"></a>
-        <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2"><img src="{{ asset('icons/png/number40.png') }}"></a>
-        <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3"><img src="{{ asset('icons/png/number37.png') }}"></a>
-        <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p"><img src="{{ asset('icons/png/line21.png') }}"></a>
-        <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="pre"><img src="{{ asset('icons/png/comment20.png') }}"></a>
-        <a data-wysihtml5-command="insertBlockQuote"><img src="{{ asset('icons/png/conversation5.png') }}"></a>
-        <a data-wysihtml5-command="formatCode" data-wysihtml5-command-value="language-html"><img src="{{ asset('icons/png/code39.png') }}"></a>
+        <div data-wysihtml5-dialog="foreColorStyle" style="display: none;">
+            Color:
+            <input type="text" data-wysihtml5-dialog-field="color" value="rgba(0,0,0,1)"/>
+            <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
+        </div>
+    </div>
+    <div class="block">
+        <div data-wysihtml5-dialog="bgColorStyle" style="display: none;">
+            Color:
+            <input type="text" data-wysihtml5-dialog-field="color" value="rgba(0,0,0,1)"/>
+            <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
+        </div>
     </div>
 
     <div class="block" data-wysihtml5-hiddentools="table" style="display: none;">
@@ -25,58 +62,8 @@
 
         <a data-wysihtml5-command="deleteTableCells" data-wysihtml5-command-value="row">delete row</a>
         <a data-wysihtml5-command="deleteTableCells" data-wysihtml5-command-value="column">delete col</a>
-
     </div>
 
-    <div class="block">
-        <a data-wysihtml5-command="fontSizeStyle">Size</a>
-
-        <div data-wysihtml5-dialog="fontSizeStyle" style="display: none;">
-            Size:
-            <input type="text" data-wysihtml5-dialog-field="size" style="width: 60px;" value=""/>
-            <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
-        </div>
-    </div>
-
-    <div class="block">
-        <a data-wysihtml5-command="insertUnorderedList"><img src="{{ asset('icons/png/office2.png') }}"></a>
-        <a data-wysihtml5-command="insertOrderedList"><img src="{{ asset('icons/png/numbered6.png') }}"></a>
-    </div>
-
-    <div class="block">
-        <a data-wysihtml5-command="alignLeftStyle"><img src="{{ asset('icons/png/text71.png') }}"></a>
-        <a data-wysihtml5-command="alignRightStyle"><img src="{{ asset('icons/png/right40.png') }}"></a>
-        <a data-wysihtml5-command="alignCenterStyle"><img src="{{ asset('icons/png/text72.png') }}"></a>
-    </div>
-
-    <div class="block">
-        <a data-wysihtml5-command="foreColorStyle">Color</a>
-
-        <div data-wysihtml5-dialog="foreColorStyle" style="display: none;">
-            Color:
-            <input type="text" data-wysihtml5-dialog-field="color" value="rgba(0,0,0,1)"/>
-            <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
-        </div>
-    </div>
-
-    <div class="block">
-        <a data-wysihtml5-command="bgColorStyle">BG Color</a>
-
-        <div data-wysihtml5-dialog="bgColorStyle" style="display: none;">
-            Color:
-            <input type="text" data-wysihtml5-dialog-field="color" value="rgba(0,0,0,1)"/>
-            <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
-        </div>
-    </div>
-
-    <div class="block">
-        <a data-wysihtml5-command="undo"><img src="{{ asset('icons/png/undo14.png') }}"></a>
-        <a data-wysihtml5-command="redo"><img src="{{ asset('icons/png/redo12.png') }}"></a>
-    </div>
-
-    <div class="block">
-        <a data-wysihtml5-action="showSource"><img src="{{ asset('icons/png/html20.png') }}"></a>
-    </div>
 
     <div data-wysihtml5-dialog="createLink" style="display: none;">
         <label>
